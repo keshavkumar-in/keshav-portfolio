@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-// import "./About.scss"
+import "./About.scss"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
@@ -28,11 +28,9 @@ const About = () => {
               I'm a Full-Stack Web Developer from India. I have been developing
               websites since 2015. I started developing websites for local
               businesses as a Freelancer using WordPress and then shifted to PHP
-              &amp; MySQL. I have worked as a Web Developer in a 5-Star Hotel in
-              their IT team for 1 year. I had used PHP &amp; MySQL there for
-              their website maintenance. Currently, my personal preference is
-              MERN (MongoDB, ExpressJs, ReactJs &amp; NodeJs) Stack and I am
-              learning &amp; developing projects on MERN Stack only.
+              &amp; MySQL. Currently, my personal preference is MERN (MongoDB,
+              ExpressJs, ReactJs &amp; NodeJs) Stack and I am learning &amp;
+              developing projects on MERN Stack.
             </p>
             <h3>skills</h3>
             <div className="about__text-skills">
@@ -46,8 +44,11 @@ const About = () => {
               <div className="skill-item">mongodb</div>
               <div className="skill-item">express</div>
               <div className="skill-item">reactjs</div>
+              <div className="skill-item">gatsbyjs</div>
+              <div className="skill-item">nextjs</div>
               <div className="skill-item">nodejs</div>
               <div className="skill-item">firebase</div>
+              <div className="skill-item">on-page seo</div>
             </div>
             <div className="about__text-tabs">
               <button
@@ -117,8 +118,28 @@ const About = () => {
                     <span>hotel patliputra continental, patna</span>
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nobis, porro laboriosam molestias id mollitia maxime!
+                    <ul>
+                      <li>
+                        - Managed front-end &amp; back-end development in
+                        Company's Room Booking Web Application.
+                      </li>
+                      <li>
+                        - Successfully identified, diagnosed and fixed website
+                        problems, including broken links, typographical errors
+                        &amp; formatting issues.
+                      </li>
+                      <li>
+                        - Responsible for Apache based Dedicated Server
+                        maintenance.
+                      </li>
+                      <li>
+                        - Optimized site for usability, search engine
+                        optimization and accessibility .
+                      </li>
+                      <li>
+                        - Cooperated with IT team to provide support for guests.
+                      </li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -128,6 +149,7 @@ const About = () => {
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
+              download="Keshav Kumar Resume"
             >
               download CV
             </a>
