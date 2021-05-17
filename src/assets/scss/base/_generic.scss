@@ -83,30 +83,11 @@ button {
     opacity: 0;
   }
 }
-@keyframes zoomInOut {
-  0%,
-  100% {
-    transform: scale(0.5);
-  }
-  50% {
-    transform: scale(1);
-  }
-}
-@keyframes bounceTop {
-  0%,
-  100% {
-    transform: translateY(-50px);
-  }
-  50% {
-    transform: translateY(0px);
-  }
-}
 
 .align-items-center {
   align-items: center;
 }
 .flex-end {
-  // justify-content: flex-end;
   float: right;
 }
 
@@ -190,8 +171,6 @@ button {
     left: 5%;
     top: 10%;
     opacity: 0.3;
-    animation: zoomInOut 8s linear infinite;
-    transform: translate3d(0, 0, 0);
   }
   .circle-2 {
     height: 80px;
@@ -200,8 +179,6 @@ button {
     left: 30%;
     top: 50%;
     opacity: 0.4;
-    animation: bounceTop 5s ease-in-out infinite;
-    transform: translate3d(0, 0, 0);
   }
   .circle-3 {
     height: 120px;
