@@ -1,5 +1,5 @@
 import React from "react"
-// import "./Home.scss"
+import "./Home.scss"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
@@ -11,7 +11,7 @@ const Home = () => {
           <div className="home__text">
             <p>Hello, I'm</p>
             <h1>Keshav Kumar</h1>
-            <h2>full stack web developer, based in India.</h2>
+            <h2>full stack web developer, from India.</h2>
             <Link to="/about" className="btn">
               more about me
             </Link>

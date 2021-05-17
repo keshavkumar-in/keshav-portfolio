@@ -1,0 +1,67 @@
+/** 
+* Home Section
+*/
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.home {
+  display: flex;
+  padding: 120px 0;
+  &__text {
+    p {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 50px;
+      text-transform: uppercase;
+      @include breakpoint-sm {
+        font-size: 30px;
+      }
+    }
+    h2 {
+      font-size: 20px;
+      text-transform: capitalize;
+      font-weight: 300;
+      margin: 0 0 30px;
+      @include breakpoint-sm {
+        font-size: 18px;
+      }
+    }
+    .btn {
+      margin: 0 15px 15px 0;
+      @include breakpoint-lg {
+        margin: 0 7px 15px;
+      }
+    }
+    @include breakpoint-lg {
+      text-align: center;
+    }
+  }
+  &__img {
+    &-box {
+      max-width: 360px;
+      background-color: $white-alpha-25;
+      border-radius: 50%;
+      border: 8px solid $white-alpha-25;
+      margin: auto;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+      @include breakpoint-lg {
+        max-width: 300px;
+      }
+    }
+    @include breakpoint-lg {
+      order: -1;
+    }
+  }
+  &__text,
+  &__img {
+    width: 50%;
+    padding: 15px;
+    @include breakpoint-lg {
+      width: 100%;
+    }
+  }
+}
