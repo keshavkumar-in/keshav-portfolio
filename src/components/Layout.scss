@@ -1,0 +1,51 @@
+/**
+* Layout Section
+*/
+
+@import "../assets/scss/variables";
+@import "../assets/scss/mixins";
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  &.fade-out {
+    opacity: 0;
+  }
+  &__active {
+    animation: fadeOut 0.5s ease-in-out forwards;
+  }
+  section {
+    background-color: $white-alpha-25;
+    border: 1px solid $white-alpha-40;
+    min-height: calc(100vh - 70px);
+    border-radius: 30px;
+    backdrop-filter: $backdrop-filter-blur;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    .container {
+      padding: 0 40px;
+      width: 100%;
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        .section-title {
+          padding: 0 15px;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 40px;
+          h2 {
+            font-size: 40px;
+            text-transform: capitalize;
+            @include breakpoint-sm {
+              font-size: 35px;
+            }
+          }
+        }
+      }
+      @include breakpoint-lg {
+        padding: 0;
+      }
+    }
+  }
+}
