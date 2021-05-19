@@ -1,0 +1,37 @@
+/** 
+* Portfolio Section
+*/
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.portfolio {
+  padding-bottom: 50px;
+  &__item {
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+    &-thumbnail {
+      padding: 10px;
+      background-color: $white-alpha-25;
+      border: 1px solid $white-alpha-40;
+      border-radius: 10px;
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+    h3 {
+      font-size: 20px;
+      text-transform: capitalize;
+      margin: 20px 0;
+    }
+    &-details {
+      display: none;
+    }
+    @include breakpoint-lg {
+      width: calc(50% - 30px);
+    }
+    @include breakpoint-md {
+      width: calc(100% - 30px);
+    }
+  }
+}
