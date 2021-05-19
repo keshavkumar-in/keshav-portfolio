@@ -39,8 +39,6 @@ const About = () => {
               <div className="skill-item">scss</div>
               <div className="skill-item">javascript</div>
               <div className="skill-item">bootstrap</div>
-              <div className="skill-item">php</div>
-              <div className="skill-item">mysql</div>
               <div className="skill-item">mongodb</div>
               <div className="skill-item">express</div>
               <div className="skill-item">reactjs</div>
@@ -48,6 +46,8 @@ const About = () => {
               <div className="skill-item">nextjs</div>
               <div className="skill-item">nodejs</div>
               <div className="skill-item">firebase</div>
+              <div className="skill-item">postman</div>
+              <div className="skill-item">github</div>
               <div className="skill-item">on-page seo</div>
             </div>
             <div className="about__text-tabs">
