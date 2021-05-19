@@ -7,7 +7,6 @@ const about = () => {
   return (
     <Layout>
       <Seo title="About Me" />
-
       <About />
     </Layout>
   )
