@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Keshav Kumar - Full Stack Web Developer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Keshav Kumar - Full-Stack Web Developer`,
+    description: `Dedicated and efficient Full-Stack Web Developer based in India. I have been developing websites since 2015. I started developing websites for local businesses as a Freelancer using WordPress and then shifted to PHP & MySQL. Currently, my personal preference is MERN (MongoDB, ExpressJs, ReactJs & NodeJs) Stack and I am learning & developing projects on MERN Stack.`,
     author: `@keshavkumar_in`,
     siteUrl: "https://keshavkumar.in/",
   },
