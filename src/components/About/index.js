@@ -46,11 +46,8 @@ const About = () => {
               <div className="skill-item">nextjs</div>
               <div className="skill-item">nodejs</div>
               <div className="skill-item">firebase</div>
-<<<<<<< HEAD
               <div className="skill-item">postman</div>
               <div className="skill-item">github</div>
-=======
->>>>>>> 1c3a943 (refactor: update about description)
               <div className="skill-item">on-page seo</div>
             </div>
             <div className="about__text-tabs">
