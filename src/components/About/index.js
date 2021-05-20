@@ -117,7 +117,7 @@ const About = () => {
                     web developer -{" "}
                     <span>hotel patliputra continental, patna</span>
                   </h4>
-                  <p>
+                  <div>
                     <ul>
                       <li>
                         - Managed front-end &amp; back-end development in
@@ -134,13 +134,13 @@ const About = () => {
                       </li>
                       <li>
                         - Optimized site for usability, search engine
-                        optimization and accessibility .
+                        optimization and accessibility.
                       </li>
                       <li>
                         - Cooperated with IT team to provide support for guests.
                       </li>
                     </ul>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
