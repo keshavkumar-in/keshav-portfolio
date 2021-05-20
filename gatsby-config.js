@@ -6,34 +6,8 @@ module.exports = {
     siteUrl: "https://keshavkumar.in/",
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-sitemap",
-      options: {
-        query: `
-        {
-          allSitePage {
-            nodes {
-              path
-            }
-          }
-        }
-      `,
-        resolveSiteUrl: () => siteUrl,
-        resolvePages: ({ allSitePage: { nodes: allPages } }) => {
-          return allPages.map(page => {
-            return { ...page }
-          })
-        },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-robots-txt`,
-      options: {
-        host: siteUrl,
-        sitemap: `${siteUrl}sitemap.xml`,
-        policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
@@ -91,6 +65,6 @@ module.exports = {
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
