@@ -7,7 +7,7 @@ import Home from "../components/Home"
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo />
       <Home />
     </Layout>
   )
