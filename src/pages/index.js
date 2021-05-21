@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import Seo from "../components/seo"
 import Home from "../components/Home"
 
-const IndexPage = () => {
+const index = () => {
   return (
     <Layout>
       <Seo />
@@ -13,4 +13,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default index
