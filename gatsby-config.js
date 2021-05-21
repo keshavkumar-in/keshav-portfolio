@@ -6,12 +6,12 @@ module.exports = {
     siteUrl: "https://keshavkumar.in/",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -37,20 +37,6 @@ module.exports = {
         theme_color: `#df5a08`,
         display: `standalone`,
         icon: `static/media/profile-img.png`,
-        icons: [
-          {
-            src: "static/media/profile-img.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "any",
-          },
-          {
-            src: "static/media/maskable_icon_x512.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "maskable",
-          },
-        ],
       },
     },
     {
