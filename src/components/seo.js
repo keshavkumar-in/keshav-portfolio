@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import ogImageDefault from "../../static/media/profile-img.png"
 
-function Seo({ description, lang, meta, title }) {
+function Seo({ description, lang, meta, title, ogImage }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -22,7 +22,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata.title
-  const ogImageUrl = site.siteMetadata.siteUrl + ogImageDefault
+  const ogImageUrl = ogImage || site.siteMetadata.siteUrl + ogImageDefault
   const siteTitle = title ? title : defaultTitle
   return (
     <Helmet
