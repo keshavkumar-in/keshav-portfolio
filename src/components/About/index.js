@@ -145,7 +145,7 @@ const About = () => {
               </div>
             </div>
             <a
-              href="/resume.pdf"
+              href="/Keshav_Kumar_Resume.pdf"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
