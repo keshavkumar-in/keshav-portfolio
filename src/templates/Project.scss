@@ -9,6 +9,7 @@
   padding-bottom: 50px;
   &__content {
     width: 100%;
+    padding: 0 15px;
     &-header {
       &-thumbnail {
         width: 100%;
@@ -44,6 +45,10 @@
               display: flex;
               flex-wrap: wrap;
             }
+            @include breakpoint-md {
+              display: flex;
+              flex-wrap: wrap;
+            }
           }
           .tech-item {
             background-color: $white-alpha-25;
@@ -61,7 +66,6 @@
         }
       }
     }
-
     @include breakpoint-md {
       padding: 30px 15px;
     }
