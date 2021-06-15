@@ -14,7 +14,7 @@ const project = ({ data }) => {
     role,
     sourceCode,
     demoLink,
-    createdAt,
+    developedOn,
   } = data.contentfulProjects
 
   const ogImage = `https:${projectImage.fixed.src}`
@@ -46,7 +46,7 @@ const project = ({ data }) => {
                 <div className="general-info">
                   <ul>
                     <li>
-                      created - <span>{createdAt}</span>
+                      created - <span>{developedOn}</span>
                     </li>
                     <li>
                       technologies used -{" "}
@@ -121,7 +121,7 @@ export const pageQuery = graphql`
       role
       sourceCode
       demoLink
-      createdAt(formatString: "MMMM Do, YYYY")
+      developedOn(formatString: "MMMM Do, YYYY")
     }
   }
 `
