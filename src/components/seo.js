@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import ogImageDefault from "../../static/media/profile-img.png"
+import ogImageDefault from "../../static/media/og-image.png"
 
 function Seo({ description, lang, meta, title, ogImage }) {
   const { site } = useStaticQuery(
