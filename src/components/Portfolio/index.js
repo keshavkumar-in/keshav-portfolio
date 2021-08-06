@@ -18,7 +18,12 @@ const Portfolio = () => (
                 description
               }
               projectImage {
-                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP])
+                gatsbyImageData(
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP]
+                  cropFocus: CENTER
+                  resizingBehavior: FILL
+                )
               }
               techUsed
               role
