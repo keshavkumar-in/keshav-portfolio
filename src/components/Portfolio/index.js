@@ -21,8 +21,7 @@ const Portfolio = () => (
                 gatsbyImageData(
                   placeholder: BLURRED
                   formats: [AUTO, WEBP]
-                  cropFocus: CENTER
-                  resizingBehavior: FILL
+                  layout: FULL_WIDTH
                 )
               }
               techUsed

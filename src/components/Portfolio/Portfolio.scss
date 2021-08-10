@@ -14,9 +14,13 @@
       background-color: $white-alpha-25;
       border: 1px solid $white-alpha-40;
       border-radius: 10px;
+      height: calc(22vh + 20px);
+      @include breakpoint-sm{
+        height: calc(25vh + 20px);
+      }
       img {
         width: 100%;
-        height: 20vh !important;
+        height: 22vh !important;
         border-radius: 10px;
         @include breakpoint-sm {
           height: 25vh !important;
