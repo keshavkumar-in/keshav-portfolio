@@ -24,6 +24,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-hashnode-devblog",
+      options: {
+        username: "KeshavKumar",
+      },
+    },
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `r0pizu02a5ls`,

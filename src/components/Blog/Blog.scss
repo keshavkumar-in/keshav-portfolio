@@ -1,10 +1,10 @@
 /** 
-* Portfolio Section
+* Blog Section
 */
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
-.portfolio {
+.blog {
   padding-bottom: 50px;
   &__item {
     width: calc((100% / 3) - 30px);

@@ -42,19 +42,14 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="nav-item">
-                    Contact
+                  <Link to="/blog" className="nav-item">
+                    Blog
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://blog.keshavkumar.in/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className="nav-item"
-                  >
-                    Blog
-                  </a>
+                  <Link to="/contact" className="nav-item">
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
