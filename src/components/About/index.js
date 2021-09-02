@@ -112,7 +112,7 @@ const About = () => {
             >
               <div className="about__text-tab-content-timeline">
                 <div className="about__text-tab-content-timeline-item">
-                  <span className="date">2019 - 2020</span>
+                  <span className="date">August 2019 - July 2020</span>
                   <h4>
                     web developer -{" "}
                     <span>hotel patliputra continental, patna</span>
@@ -143,7 +143,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="about__text-tab-content-timeline-item">
-                  <span className="date">2019 - 2020</span>
+                  <span className="date">August 2021 - Present</span>
                   <h4>
                     web developer -{" "}
                     <span>Bihar State Madrasa Education Board, Patna</span>
