@@ -142,6 +142,21 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
+                <div className="about__text-tab-content-timeline-item">
+                  <span className="date">2019 - 2020</span>
+                  <h4>
+                    web developer -{" "}
+                    <span>Bihar State Madrasa Education Board, Patna</span>
+                  </h4>
+                  <div>
+                    <ul>
+                      <li>
+                        - Developing Board's new website and web application for
+                        student management.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
             <a
